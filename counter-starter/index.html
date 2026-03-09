@@ -13,9 +13,16 @@
 
     <body>
         <div id="wrapper">
+            <p>Mood Rating for Today</p>
             <p id="number">0</p>
             <div id="button-wrapper">
+                <input type="button" value="+1" id="add1" onclick="add(1)"/>
+                <input type="button" value="+10" id="add10" onclick="add(10)"/>
+                <input type="button" value="-1" id="subtract1" onclick="subtract(1)"/>
+                <input type="button" value="-10" id="subtract10" onclick="subtract(10)"/></div><br>
+                <input type="button" value="reset" id="reset" onclick="reset(0)"/>
             </div>
         </div>
     </body>
+    <script src="script.js"></script>
 </html>
